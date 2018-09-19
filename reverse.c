@@ -56,8 +56,7 @@ int main(int argc, char* argv[]){
 
 	//Reverse the contents of the file
 	for(int i = 0; i<size; ++i){
-		//Reverses each individual byte
-		//-1 is needed because file size is 1 more than num of chars
+		//Iterate through the word array backwards
 		reverse[i] = word[size-i-1];
 	}
 	
